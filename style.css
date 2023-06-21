@@ -1,0 +1,31 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(header.jpg);
+    background-size:cover;
+    background-position: 50% 23%;
+    background-repeat: no-repeat;
+}
+.head, h1,h2{
+    position: relative;
+    text-align: center;
+    top:30%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    color:white
+}
+.button {
+    position:relative;
+    text-align: center;
+    top:63%;
+}
+btn btn-primary btn-sm{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    --bs--btn-hover-bg:red;
+    --bs-btn-hover-border-color:blue;
+}
